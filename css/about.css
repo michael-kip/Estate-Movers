@@ -1,87 +1,195 @@
-body{
-    background-image: url("Images/movinggoods.png");
-    background-repeat: no-repeat;
-    background-size: 1300px 580px;
+body {
+  background-image: url(/Images/movinggoods.png);
+  background-repeat: no-repeat;
+  background-size: 1300px 580px;
+  
+  
 }
-header{
-display: flex;
+ 
 
+header {
+  display: flex;
 }
-    header img{
-        width: 300px;
-    }
-    nav{
-        background-color: #0a4570;
-        width: 100%;
-        padding: 20px;
-        border-radius: 20px;
-        
-    }
-    nav ul{
-        display: flex;
-        
-    }
-    nav ul li {
+header img {
+  width: 300px;
+}
+nav {
+  background-color: #0a4570;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  background-color: #0a4570;
+  list-style: none;
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 2em;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  background-color: white;
+  color: #0a4570;
+  border-radius: 20px;
+}
+nav ul li a:active {
+  color: #0a4570;
+}
+.active a {
+  background-color: white;
+  color: #0a4570;
+  border-radius: 20px;
+}
+.biography {
+  background-color: #ffffff;
+  width: 49.5%;
+  float: right;
+  margin-top: 100px;
+  height: 300px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 50px;
+  margin-right: 5px;
+  opacity: 0.7;
+  font-weight: 800;
+}
+.biography h1 {
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+}
+.biography p {
+  text-align: center;
+  margin-left: 50px;
+  color: #2e363b;
+  font-size: 20px;
+}
+.vision {
+  clear: both;
+  width: 50%;
+  height: 200px;
+  float: left;
+  margin-top: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 119, 0, 0.69) 0%,
+    rgba(10, 69, 112, 0.05) 100%
+  );
+}
+.vision > h1 {
+  text-align: center;
+}
+footer {
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  background-color: #0a4570;
+  border-radius: 10px;
+}
 
-        background-color: #0a4570;
-        list-style: none;
-        text-decoration: none;
+.copy {
+  margin-left: 50px;
+  padding-top: 5px;
+}
 
-    }
-    nav ul li a{
-        text-decoration: none;
-        color: white;
-        padding: 20px;
-        font-size: 2em;
-        font-weight: bold;
-    }
-    nav ul li a:hover{
-        background-color:white;
-        color: #0a4570;
-        border-radius: 20px;
-    }
-    nav ul li a:active{
-        color: #0a4570;
-    }
-    .active a{
-        background-color:white;
-        color: #0a4570;
-        border-radius: 20px;
-    }
-    .biography{
-        background-color:#ffffff;
-    width:49.5%;
-    float:right;
-    margin-top:100px;
-    height:300px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    padding-top:50px;
-    margin-right:5px;
-    opacity: 0.7;
-    font-weight: 800;
-    }
-    .biography h1{
-        text-align: center;
-        color:blue;
-        font-size: 20px;
-    
-    }
-    .biography p{
-        text-align: center;
-        margin-left:50px;
-        color:#2e363b;
-        font-size:20px; 
-    
-    
-    }
-    .vision{
-        clear:both;
-        width:50%;
-        height: 200px;
-        float: left;
-        margin-top:10px;  
-        background: linear-gradient(180deg, rgba(236, 119, 0, 0.69) 0%, rgba(10, 69, 112, 0.05) 100%);
-    
-    
-    }
+.social p {
+  color: white;
+}
+
+.copy p {
+  color: white;
+}
+
+.bttm {
+  width: 100%;
+}
+
+.bttm h3 {
+  color: white;
+}
+
+.bttm p {
+  color: white;
+}
+
+.row-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 5% 0 4%;
+}
+
+.cl {
+  width: 300px;
+  text-align: center;
+}
+
+.vs {
+  width: 300px;
+  text-align: center;
+}
+
+.cpy {
+  text-align: center;
+}
+
+.cyp {
+  background-color: #22557e;
+  padding: 6px;
+}
+
+#ms {
+  margin-left: 100px;
+}
+
+#vss {
+  margin-left: 100px;
+}
+
+/* social icons start */
+
+.social {
+  display: flex;
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.social ul li {
+  display: inline-block;
+}
+
+.fa {
+  padding: 15px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-whatsapp {
+  background: #34bf49;
+}
+
+.fa-facebook {
+  background: #3b5998;
+}
+
+.fa-twitter {
+  background: #55acee;
+}
+
+/* social icons ends */
