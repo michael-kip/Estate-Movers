@@ -1,0 +1,205 @@
+* {
+    color: #fff;
+}
+
+
+/* forms */
+
+.frm {
+    margin: 5px 15% 1% 15%;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 12px;
+}
+
+
+/* forms */
+
+
+/* social icons */
+
+.social {
+    display: flex;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.fa {
+    padding: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    /* margin: 10px; */
+    margin: -5px 10px 10px 0;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-whatsapp {
+    background: #34bf49;
+}
+
+.fa-facebook {
+    background: #3B5998;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+}
+
+.fa-instagram {
+    background: #bc2a8d
+}
+
+.fa-youtube {
+    background: #bb0000;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+}
+
+
+/* social icons */
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+#cright {
+    margin: 3%;
+    padding-left: 70px;
+}
+
+.bttn {
+    float: right;
+    margin-top: 10px;
+}
+
+#cleft {
+    margin: 3%;
+    padding-left: 50px;
+    background-image: linear-gradient(#0A4570, #fff);
+    border-radius: 10px;
+    padding-right: 30px;
+}
+
+
+/*  google map*/
+
+#googlemap {
+    width: 100%;
+    height: 480px;
+}
+
+
+/* google map */
+
+h2 {
+    text-align: center;
+}
+
+.hear {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    background-color: #0A4570;
+    border-radius: 10px;
+}
+
+.copy {
+    margin-left: 50px;
+    padding-top: 5px;
+}
+
+
+/* footer */
+
+
+/* nav bar */
+
+#navb {
+    height: 70px;
+    background-color: #0A4570;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 15px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #bb0000;
+}
+
+#estate {
+    float: left;
+}
+
+#est {
+    height: 70px;
+}
+
+
+/* nav bar ends */
