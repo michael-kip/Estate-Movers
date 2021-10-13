@@ -44,9 +44,6 @@ input[type=submit]:hover {
 
 /* forms */
 
-
-/* social icons */
-
 .row {
     display: flex;
 }
@@ -235,7 +232,8 @@ footer {
 
 /* nav bar */
 
-#navb {
+
+/* #navb {
     height: 70px;
     background-color: #0A4570;
     border-radius: 10px;
@@ -266,7 +264,62 @@ li a:hover {
 
 #est {
     height: 70px;
+} */
+
+
+/* nav bar ends */
+
+header {
+    display: flex;
 }
+
+header img {
+    width: 300px;
+}
+
+nav {
+    background-color: #0a4570;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    background-color: #0a4570;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #0a4570;
+    border-radius: 20px;
+}
+
+nav ul li a:active {
+    color: #0a4570;
+}
+
+.active a {
+    background-color: white;
+    color: #0a4570;
+    border-radius: 20px;
+}
+
+
+/* nav bar starts */
 
 
 /* nav bar ends */
