@@ -44,7 +44,18 @@ input[type=submit]:hover {
 #message {
     color: black;
 }
-
+#fname {
+    color: black;
+}
+#phone{
+    color: black;
+}
+#email {
+    color: black;
+}
+#subject {
+    color: black;
+}
 
 /* forms end */
 
