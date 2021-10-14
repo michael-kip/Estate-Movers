@@ -29,8 +29,8 @@ The user or third party must first download the software before installation.
 
 
 ## Contact & License Information
-Copyright &copy 2021 Estate Movers Limited
+Estate Movers © 2021. All Rights Reserved.
 
-Permission is hereby granted for the use of the above software by any third party at no costs.
+Permission is hereby granted by the athors for the use of the above software by any third party at no costs.
 
 The software is provided in the condition of as it is and the author is not liable to any damage to a third party arising from the use of the above software.
