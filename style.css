@@ -41,8 +41,12 @@ input[type=submit]:hover {
     padding: 12px;
 }
 
+#message {
+    color: black;
+}
 
-/* forms */
+
+/* forms end */
 
 .row {
     display: flex;

@@ -20,6 +20,7 @@ The website displays various services offered by the company to their potential 
 ## Project Live Link
 
 ## Project Design Link
+https://www.figma.com/file/USXtSHHyuM87E6L5L1WPf1/Estate-Movers?node-id=0%3A1
 
 ## Setup & Installation Instructions
 Entails how to install and configure the software for it to work on a different computer.
