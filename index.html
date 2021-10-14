@@ -8,11 +8,7 @@
     <title>contact us</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/livingston-css3-mediaqueries-js/1.0.0/css3-mediaqueries.min.js
-
-
-
-    ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/livingston-css3-mediaqueries-js/1.0.0/css3-mediaqueries.min.js">
 
 </head>
 
@@ -57,7 +53,7 @@
         <div class="column" id="cleft">
             <h2><span style="color: white;">Reach out to us by writing</span></h2>
             <p class="hear"><span style="color: orange;">We would like to hear from you.</span> </p>
-            <form action="">
+            <form id="form" action="">
                 <label for="fname"><b>Name:</b></label>
                 <input type="text" id="fname" name="firstname" placeholder="your name..." required>
                 <label for="lname"><b>Phone:</b></label>
@@ -68,7 +64,7 @@
                 <input type="text" id="subject" name="subject" placeholder="subject..." required>
                 <label for="message"><b>Message:</b></label>
                 <textarea id="message" name="message" placeholder="Message..." style="height: 100px;" rows="" cols="" required></textarea>
-                <input type="submit" value="Send" class="bttn">
+                <input type="submit" onclick="feedback()" value="Send" class="bttn">
             </form>
         </div>
         <div class="column" id="cright">
