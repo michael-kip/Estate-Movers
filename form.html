@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2" id="thankYou"></th>
+        </tr>
+        <tr>
+            <th colspan="2" id="info"></th>
+        </tr>
+        <tr>
+            <td id="name"></td>
+            <td id="phone"></td>
+        </tr>
+        <tr>
+            <td id="email"></td>
+            <td id="subject"></td>
+        </tr>
+        <tr>
+            <td id="message" colspan="2"></td>
+        </tr>
+        <tr>
+            <td id="note" colspan="2"></td>
+        </tr>
+    </table>
+    <form id="form" >
+        <label for="fname"><b>Name:</b></label>
+        <input type="text" id="fname"  placeholder="your name..." required>
+        <label ><b>Phone:</b></label>
+        <input type="text" id="fphone"  placeholder="phone no..." required>
+        <label ><b>Email:</b></label>
+        <input type="text" id="femail"  placeholder="email address..." required>
+        <label ><b>Subject:</b></label>
+        <input type="text" id="fsubject" name="subject" placeholder="subject..." required>
+        <label ><b>Message:</b></label>
+        <textarea id="fmessage"  placeholder="Message..." style="height: 100px;" rows="" cols="" required></textarea>
+        <input type="submit" onclick="feedback()" value="Send" class="bttn">
+    </form>
+    
+    <script src="feedback.js"></script>
+</body>
+</html>
