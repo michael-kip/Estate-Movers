@@ -1,0 +1,292 @@
+* {
+    color: white;
+}
+
+
+/* forms */
+
+.frm {
+    margin: 5px 15% 1% 15%;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #0A4570;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 12px;
+}
+
+#message {
+    color: black;
+}
+
+
+/* forms end */
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+#cright {
+    margin: 3%;
+    padding-left: 70px;
+}
+
+#cright,
+h2,
+h3,
+p {
+    color: #0A4570;
+}
+
+.bttn {
+    float: right;
+    margin-top: 10px;
+}
+
+#cleft {
+    margin: 3%;
+    padding-left: 50px;
+    background-image: linear-gradient(#0A4570, #fff);
+    border-radius: 10px;
+    padding-right: 30px;
+}
+
+#cleft,
+h2 {
+    color: white;
+}
+
+#cleft,
+p {
+    color: orange;
+}
+
+#det,
+h3,
+p,
+h2 {
+    color: #0A4570;
+}
+
+
+/*  google map*/
+
+#googlemap {
+    width: 100%;
+}
+
+
+/* google map */
+
+h2 {
+    text-align: center;
+}
+
+.hear {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* footer start */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #0A4570;
+    border-radius: 10px;
+}
+
+.copy {
+    margin-left: 50px;
+    padding-top: 5px;
+}
+
+.social p {
+    color: white;
+}
+
+.copy p {
+    color: white;
+}
+
+.bttm {
+    width: 100%;
+}
+
+.bttm h3 {
+    color: white;
+}
+
+.bttm p {
+    color: white;
+}
+
+.row-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 5% 0 4%;
+}
+
+.cl {
+    width: 300px;
+    text-align: center;
+}
+
+.vs {
+    width: 300px;
+    text-align: center;
+}
+
+.cpy {
+    text-align: center;
+}
+
+.cyp {
+    background-color: #22557E;
+    padding: 6px;
+}
+
+#ms {
+    margin-left: 100px;
+}
+
+#vss {
+    margin-left: 100px;
+}
+
+
+/* social icons start */
+
+.social {
+    display: flex;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.fa {
+    padding: 15px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-whatsapp {
+    background: #34bf49;
+}
+
+.fa-facebook {
+    background: #3B5998;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+}
+
+
+/* social icons ends */
+
+
+/* footer ends */
+
+
+/* nav bar ends */
+
+header {
+    display: flex;
+}
+
+header img {
+    width: 300px;
+}
+
+nav {
+    background-color: #0a4570;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    background-color: #0a4570;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #0a4570;
+    border-radius: 20px;
+}
+
+nav ul li a:active {
+    color: #0a4570;
+}
+
+.active a {
+    background-color: white;
+    color: #0a4570;
+    border-radius: 20px;
+}
+
+
+/* nav bar starts */
+
+
+/* nav bar ends */
